@@ -1,14 +1,14 @@
 # **Segmentación de clientes aplicado al análisis de reducción de tasas de natalidad en Colombia** 
 ## Seminario de Analítica y Ciencia de Datos
 
-## **1. Generalidades**
+## **Generalidades**
 
-### **1.1 Objetivo:**
+### **1. Objetivo:**
 Pre-procesar un conjunto de datos extraidos del DANE **(nombrado: nac2022.csv )** con las  estadísticas asociadas a los nacimientos en Colombia para el año 2022. Este, corresponde a una 
 muestra del total de datos seleccionados en el planteamiento del presente proyecto (5 años) y serviran de base para explorar los modelos de regresión y clasificación
 a implementar. 
 
-### **1.2 Anotaciones importantes sobre el conjunto de datos**
+### **2. Anotaciones importantes sobre el conjunto de datos**
 Se tiene una base de datos con 39 columnas y 573.625 filas con datos demograficos, sociales, geograficos y educativos asociados a los nacimientos de individuos en el territorio
 Colombiano, esta información se encuentra codificada de la siguiente manera: 
 
@@ -56,8 +56,35 @@ Colombiano, esta información se encuentra codificada de la siguiente manera:
 | PROFESION | Profesión de quien certifica el nacimiento  | 2 = Enfermero(a) |
 | TIPOFORMULARIO | Fuente del Certificado  | 1 = Certificado RUAF-ND |
 
-    
+   
 ****
-
     
-Url origen datos: https://microdatos.dane.gov.co/index.php/catalog/807/data-dictionary/F32?file_name=nac2022
+Url origen datos: **[nac2022](https://microdatos.dane.gov.co/index.php/catalog/807/data-dictionary/F32?file_name=nac2022)**
+
+## **Preprocesamiento de datos**
+
+Antes de comenzar  porfavor acceda al siguiente Script implementado enn **Google Colaboratory**:  **[Nacimientos](https://colab.research.google.com/drive/1_Gw7abhVSN5p9U0YD9DjXrDvbxyvMhVw?usp=sharing)**, allí  podrá evidenciar todo el tratamiento realizado a los datos. 
+Para su entendimiento visualice y ejecute el `Script` de la siguiente manera y en el siguiente orden, identificando los siguientes titulos o encabezados: 
+
+### 1. Librerias y configuraciones previas
+En este bloque de código podrá encontrar las librerias que se han implementado a lo largo del `Script` para: cargar los datos, tratamiento de datos, gráficos, operaciones
+matematicas y estadísticas, preparación de datos para generación de modelos, configuración de warnings o alertas. Porfavor corra este bloque de código utilizando las teclas 
+`Ctrl`+`Enter`. 
+
+### 2. Funciones externas para gráficar
+En este bloque de código podrá identificar diferentes funciones para generar ciertos tipos de gráficos con mayor practicidad a lo largo del Script según sea la necesidad. 
+Porfavor corra este bloque de código utilizando las teclas `Ctrl`+`Enter`. 
+
+### 3. Carga del conjunto de datos desde Google Drive
+En este apartado podrá identificar lineas de código que le permitiran acceder, descargar y abrir la base de datos a analizar desde una ubicación de Google Drive determinada. 
+Porfavor corra este bloque de código utilizando las teclas `Ctrl`+`Enter` y siga los pasos indicados en el cuadro de dialogo que se despliequega en la parte superior izquierda de su pantalla, aceptando los permisos solicitados. De esta manera, quedará cargado el archivo `.csv`, disponible para su manipulación en pasos posteriores. 
+
+### 3.1 Cargar el conjunto de datos en un DataFrame
+Al correr este bloque de código podrá generar un DataFrame donde podrpa visualizar las variables que componen el conjunto de datos llamado `nac2022.csv`, de la siguiente
+manera: 
+
+
+## En materia ...
+
+### 4.
+
