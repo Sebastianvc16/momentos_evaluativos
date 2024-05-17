@@ -154,20 +154,14 @@ En este bloque de código se generan 2 Graficos, generados a partir de las varia
 ![image](https://github.com/Sebastianvc16/momentos_evaluativos/assets/165964833/71ba4ed0-a292-48c7-bafd-516505994caf)  ![image](https://github.com/Sebastianvc16/momentos_evaluativos/assets/165964833/a7c81205-25c7-4853-b7cd-b9d6c948cd19) 
 
 
-
 # **¡ MUCHAS GRACIAS !** 
-Esperamos que este instructivo sea de su pleno entendimiento. 
 
-    ELABORADO POR: 
+## Si deseas contribuir a este proyecto, ¡eres bienvenido! Siéntete libre de realizar tus aportes !
+
+   
+**ELABORADO POR:** 
 
     * LYDA VANESSA LARGO QUINTERO
     * SEBASTIAN VALENCIA CADENA
-
-
-
-
-
-
-
 
 
