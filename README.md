@@ -145,12 +145,12 @@ Previamente se identificó que al traducir los códigos númericos de cada una d
 ![image](https://github.com/Sebastianvc16/momentos_evaluativos/assets/165964833/c5dcd233-f074-4685-9728-d616371d7faf)
   
 
-### 9. Preparación de datos para el modelo de regresión
+### 9. Preparación de datos para el modelo de Clusterización
 
 En este bloque de código se generan 2 Graficos, generados a partir de las variables **MUL_PART** y **NIV_EDUM** (**Ver tabla en item (2): Anotaciones importantes del conjunto de datos**), para identificar el comportamiento de la cantidad de nacimientos en relación al nivel de escolaridad de la madre. Las instancias gráficas generadas son: 
 
-*  **Dispersión** : Que permite identificar la distribución de los datos clasificados. 
-*  **Clasificación**: Utilizando el metodo KMeans, podrá observar 5 clusters discrimados por color, paracada uno podrá encontrar información importante en relación al nivel de escolaridad y el aumento o disminución de la cantidad de nacimientos.
+*  **Dispersión** : Permite identificar la distribución de los datos clasificados. 
+*  **Clasificación**: Utilizando el metodo KMeans, podrá observar 5 clusters discrimados por color, para cada uno podrá encontrar información importante en relación al nivel de escolaridad y el aumento o disminución de la cantidad de nacimientos.
 ![image](https://github.com/Sebastianvc16/momentos_evaluativos/assets/165964833/71ba4ed0-a292-48c7-bafd-516505994caf)  ![image](https://github.com/Sebastianvc16/momentos_evaluativos/assets/165964833/a7c81205-25c7-4853-b7cd-b9d6c948cd19) 
 
 
