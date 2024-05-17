@@ -77,14 +77,50 @@ Porfavor corra este bloque de código utilizando las teclas `Ctrl`+`Enter`.
 
 ### 3. Carga del conjunto de datos desde Google Drive
 En este apartado podrá identificar lineas de código que le permitiran acceder, descargar y abrir la base de datos a analizar desde una ubicación de Google Drive determinada. 
-Porfavor corra este bloque de código utilizando las teclas `Ctrl`+`Enter` y siga los pasos indicados en el cuadro de dialogo que se despliequega en la parte superior izquierda de su pantalla, aceptando los permisos solicitados. De esta manera, quedará cargado el archivo `.csv`, disponible para su manipulación en pasos posteriores. 
+Porfavor corra este bloque de código utilizando las teclas `Ctrl`+`Enter` y siga los pasos indicados en el cuadro de dialogo que se despliequega en la parte superior izquierda de su pantalla, aceptando los permisos solicitados. De manera gráfica podrá visualizar lo siguiente: 
+
+![image](https://github.com/Sebastianvc16/momentos_evaluativos/assets/165964833/5465bb76-4197-47f0-a69f-29b03ff76c3a)
+
+
+De esta manera, quedará cargado el archivo `.csv`, disponible para su manipulación en pasos posteriores con el nombre `**nac**`. Puede guiarse de manera gráfica por las siguientes 
 
 ### 3.1 Cargar el conjunto de datos en un DataFrame
-Al correr este bloque de código podrá generar un DataFrame donde podrpa visualizar las variables que componen el conjunto de datos llamado `nac2022.csv`, de la siguiente
-manera: 
+Al correr este bloque de código podrá generar un DataFrame donde podrpa visualizar las variables que componen el conjunto de datos llamado `nac2022.csv`, de la siguiente manera (Recuerde correr esta línea de codigo con las teclas `Ctrl`+`Enter`): 
 
+![image](https://github.com/Sebastianvc16/momentos_evaluativos/assets/165964833/542f286c-fba3-4c6c-9db0-ba090c5d1dad)
+
+### 4. Identificar datos del Dataframe 
+A continuación, corra los bloques de código **4.1** y **4.2**, cómo resultado podrá visualizar con mayor detalle las columas del DataSet y su tipo (`int64`, `object`, `float64`).  
 
 ## En materia ...
 
-### 4.
+### 5. Limpieza de datos 
+#### Este apartado se compone de 5 bloques de código  distribuidos de la siguiente manera: 
+
+   * **5.1** En este bloque de código se eliminan las columnas que no aportan información relevante para el análisis del proyecto planteado. Al correr este bloque podrá identificar un Dataframe con 13 columnas de tipo númerico.
+   * **5.2** Se genera un nuevo dataFrame llamado **`nac_1`** que contenga las columnas eliminadas y conserve los valores númericos, es decir sin descodificar (Recuerde que los valores se encuentran códificados de acuerdo a lo indicado en tabla del item **(2): Anotaciones importantes del conjunto de datos**. Esto, para evitar errores a la hora de preparar y visualizar datos para los modelos a realizar (regresión y Clasificación).
+     ***NOTA***: En este mismo bloque, se reemplazarán los valores considerados *outliers* = 99 y 999, por valores tipo `NaN`.
+     
+   * **5.3** Al correr este bloque de código contabilizará los valores considerados `NaN` del item **5.2**.
+     
+   *  **5.4** Se imputan los valores `NaN` identificados previamente, por la media de la columna donde se encuentran dichos valores.
+     
+   *  **5.5** Se verifica que ya no se tienen valores `NaN` en el Dataframe
+
+**NOTA:** Porfavor recuerde que para correr cada bloque de código puede utilizar las teclas `Ctrl`+`Enter`. 
+     
+### 6. Descodificación de variables sobre el dataFrame Original
+
+Previamente se identificó que al traducir los códigos númericos de cada una de las columnas del conjunto de datos inicial **Ver item (2): Anotaciones importantes del conjunto de datos**, muchos de los registros eran de tipo categorico. Por tal motivo, en este bloque de código se utiliza el metodo de **maping** y la función  `Replace` para reemplazar los valores númericos por su correspondiente variable categorica, a esto le llamamos *descodificar* y así visualizar su comportamiento para comenzar a evidenciar tendencias o datos importantes. 
+
+### 7.
+
+
+
+
+
+
+
+
+
 
